@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+      @theme {
+        --color-red: #dd0119;
+        --color-blue: #007cbb;
+        --color-yellow: #ffeb33;
+        --color-orange: #f8bb00;
+      }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden">
+  <header class="bg-linear-to-r from-red to-orange text-white p-4 text-center flex jsutify-start items-center gap-5 h-[10dvh]">
+    <img src="https://bwdbern.ch/wp-content/uploads/2019/05/logo_bwd_neg.png" class="h-[2rem]"/>
+    <h1 class="text-[2rem] font-arial font-bold">Html lernen mit Globi an der BWD</h1>
+  </header>
+  <div class="w-full h-[90dvh] bg-blue grid grid-cols-4 grid-rows-4 gap-2 p-2">
+    <div class="row-span-3 col-span-1 bg-red rounded-lg p-2 text-wrap">
+      Bild von Globi
+      url: https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp
+    </div>
+    <div class="row-span-2 col-span-1 bg-red rounded-lg p-2">Font-size</div>
+    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
+    <div class="row-span-4 col-span-1 bg-red rounded-lg p-2">form</div>
+    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
+    <div class="row-span-2 col-span-1 bg-red rounded-lg p-2">Font style</div>
+    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
+    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">List</div>
+    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">Links</div>
+  </div>
+</body>
+</html>
