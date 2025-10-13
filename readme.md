@@ -55,7 +55,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Unterstützung & Rückmeldungen
 Wenn du neue Versionen der Inputs oder Materialien hinzufügen möchtest, sende bitte eine E-Mail an:
 
-**E-Mail:** [aaronmettler@xx.ch], [naomibaechler@protonmail.com]
+**E-Mail:** [aaron.mettler@gmx.ch], [naomi.baechler@protonmail.com]
 
 ### Bei Fragen
 Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adresse wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
