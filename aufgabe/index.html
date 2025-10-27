@@ -3,35 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
-      @theme {
-        --color-red: #dd0119;
-        --color-blue: #007cbb;
-        --color-yellow: #ffeb33;
-        --color-orange: #f8bb00;
-      }
-    </style>
+  <title>HTML lernen mit Globi an der BWD</title>
+  <link rel="stylesheet" href="default.css">
+  <style>
+
+  </style>
 </head>
-<body class="h-screen w-screen overflow-hidden">
-  <header class="bg-linear-to-r from-red to-orange text-white p-4 text-center flex jsutify-start items-center gap-5 h-[10dvh]">
-    <img src="https://bwdbern.ch/wp-content/uploads/2019/05/logo_bwd_neg.png" class="h-[2rem]"/>
-    <h1 class="text-[2rem] font-arial font-bold">Html lernen mit Globi an der BWD</h1>
+<body>
+  <header>
+    <img src="https://bwdbern.ch/wp-content/uploads/2019/05/logo_bwd_neg.png"/>
+    <h1>Html lernen mit Globi an der BWD</h1>
   </header>
-  <div class="w-full h-[90dvh] bg-blue grid grid-cols-4 grid-rows-4 gap-2 p-2">
-    <div class="row-span-3 col-span-1 bg-red rounded-lg p-2 text-wrap">
-      Bild von Globi
+  <div class="container">
+    <!-- Ein Bild kann mit dem <img> Tag eingebunden werden
+      <img src="URL" alt="Beschreibung"/>
+    -->
+    <div class="box box-1">
+      Bild von Globi <br>
       url: https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp
     </div>
-    <div class="row-span-2 col-span-1 bg-red rounded-lg p-2">Font-size</div>
-    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
-    <div class="row-span-4 col-span-1 bg-red rounded-lg p-2">form</div>
-    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
-    <div class="row-span-2 col-span-1 bg-red rounded-lg p-2">Font style</div>
-    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">inline style, style tag css style</div>
-    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">List</div>
-    <div class="row-span-1 col-span-1 bg-red rounded-lg p-2">Links</div>
+
+    <!-- Schreibe jeden Text in einen anderen Tag(<>)
+     <h1>Das ist ein grosser Text</h1>
+     <h3>Das ist ein kleiner Text</h3>
+     <p>Das ist ein normaler Text</p>
+    -->
+    <div class="box box-2">
+      Globi
+      Der Kinderbuchheld
+      Globi ist eine beliebte Kinderbuchfigur, die in spannenden Abenteuern die Welt entdeckt.
+    </div>
+
+    <!-- Mit dem style Attribut können Texte direkt gestylt werden
+      <p style="font-weight: bold; font-size: 18px;">
+        Dieser Text ist mit Inner HTML Designt (Tipp: Bold, size 18px)
+      </p>
+    -->
+    <div class="box box-3">inline style</div>
+
+    <!-- Ein Formular kann mit dem <form> Tag erstellt werden
+      <form>
+        <input type="text" placeholder="Name"/>
+        <input type="email" placeholder="Email"/>
+        <select>
+          <option value="interesse">Interesse an</option>
+          <option value="buch">Buch</option>
+          <option value="spielzeug">Spielzeug</option>
+          <option value="andere">Andere</option>
+        </select>
+        <textarea placeholder="Nachricht an Globi"></textarea>
+        <input type="submit" value="Absenden"/>
+      </form> -->
+    <div class="box box-4">form
+        Name
+        Email
+        Select:
+          Interesse an
+          Buch
+          Spielzeug
+          Andere
+        Nachricht an Globi
+        Absenden
+    </div>
+
+    <!-- Mit dem style tag können Texte gestylt werden
+      <style>
+        .style-tag {
+          font-weight: bold;
+          font-size: 18px;
+        }
+      </style>
+    -->
+    <div class="box box-5">style tag</div>
+
+    <!-- Verschiedene Textauszeichnungen können mit Tags gemacht werden
+      <strong>Fett</strong>
+      <i>Kursiv</i>
+      <u>Unterstrichen</u>
+      <s>Durchgestrichen</s>
+      <b>Fett</b>-->
+    <div class="box box-6">Font style
+      <h2>Globi's Abenteuer</h2>
+      <p>Globi erlebt viele spannende Abenteuer, bei denen er neue Freunde findet und viel fiel über die Welt lernt.</p>
+    </div>
+
+    <!-- Mit CSS können Texte gestylt werden
+     Schreibe alles in das style.css file
+    <style>
+      .css-style {
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
+    -->
+    <div class="box box-7">css style</div>
+
+    <!-- Eine Liste kann mit dem <ul> oder <ol> Tag erstellt werden
+      ul = ungeordnete Liste (Punkte)
+      ol = geordnete Liste (Nummern)
+      <ul>
+        <li>Globi</li>
+        <li>Frau Globi</li>
+        <li>Willi</li>
+        <li>Blumli</li>
+      </ul> -->
+    <div class="box box-8">List:
+        Charakter:
+        Neugierig
+        Humorvoll
+        Lernbereit
+
+        Bestseller Bücher:
+        Globi in der Stadt
+        Globi und die Schweizer Berge
+        Globi und die Tiere der Welt
+    </div>
+
+    <!-- Ein Link kann mit dem <a> Tag erstellt werden
+      <a href="URL" target="_blank">Link Text</a>
+    -->
+    <div class="box box-9">Links https://www.w3schools.com/html/html_basic.asp / https://www.w3schools.com/css/css_syntax.asp</div>
   </div>
 </body>
 </html>

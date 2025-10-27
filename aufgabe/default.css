@@ -1,0 +1,108 @@
+:root {
+  --color-red: #dd0119;
+  --color-blue: #007cbb;
+  --color-yellow: #ffeb33;
+  --color-orange: #f8bb00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+header {
+  background: linear-gradient(to right, var(--color-red), var(--color-orange));
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  height: 10vh;
+}
+
+header img {
+  height: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  background-color: var(--color-blue);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.box {
+  background-color: var(--color-red);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-wrap: wrap;
+}
+
+.box-1 {
+  grid-row: span 3;
+  grid-column: span 1;
+}
+
+.box-2 {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.box-3 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.box-4 {
+  grid-row: span 4;
+  grid-column: span 1;
+}
+
+.box-5 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.box-6 {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.box-7 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.box-8 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.box-9 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.style-tag {
+  font-weight: bold;
+  font-size: 18px;
+}
