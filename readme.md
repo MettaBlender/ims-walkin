@@ -31,16 +31,16 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 - **Durchführung:** Den Workshop ausführen
     - Alle begrüssen und dich ihnen kurz vorstellen
     - Erklären was sie vor sich haben (Workshop 1 -> HTML IDE Visual Studio Code & Localhost verbindung im Web)
-    - Ihnen mitteilen das du für Fragen da bist 
+    - Ihnen mitteilen das du für Fragen da bist
     - ! Auftrag: sie sollen versuchen ihr HTML so zu umprogrammieren, dass es gleich aussieht wie die Lösung vorne
     - Warten bis die meisten Fertig sind und dann Allgemeine Probleme evtl nochmals anschauen
 
-- **Betreuung:** Für eine angenehme Lernatmosphäre sorgen und Fragen beantworten 
+- **Betreuung:** Für eine angenehme Lernatmosphäre sorgen und Fragen beantworten
     - Sorge für eine angenehme, nicht zu laut und hektische atmosphäre im Klassenzimmer
     - Gehe zu den SuS bei Fragen und löse wenn nötig die Teilaufgabe mit ihnen
 
 ### Wo findest du alles?
-- **Materialien & Vorlagen:** Hier im Repo ([Linkzurepo]) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten. 
+- **Materialien & Vorlagen:** Hier im Repo ([Linkzurepo]) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten.
 - **Werkzeuge & Plattformen:** Wir nutzen Visual Studio Code (IDE) und die CMD für die Localhostverbindung -> der benutzte Browser spielt keine rolle (meist Edge oder Chrome)
 
 ### Hinweise
