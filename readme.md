@@ -7,7 +7,7 @@ Willkommen! Dieses Dokument soll dir den Einstieg erleichtern und dir alle wicht
 ## 1. Allgemeine Übersicht & Zielsetzung
 
 ### Was ist das Walk-In Schnuppern?
-In dem IMS Walk-In Schnuppern geht es darum, den Oberstufenschüler und Schülerinnen Wissen in den Bereichen HTML, CSS und mehr zu vermitteln. Unser Ziel ist es, den Schüler und Schülerinnen Spass an der Informatik zu vermitteln und ihnen einen Einblick in das Praxistraining der IMS gewähren.
+In dem IMS Walk-In Schnuppern geht es darum, den Oberstufenschüler und Schülerinnen Wissen in den Bereichen HTML, CSS und mehr zu vermitteln. Unser Ziel ist es, den Schüler und Schülerinnen Spass an der Informatik zu vermitteln und ihnen einen Einblick in das Praxistraining der IMS zu gewähren.
 
 ### Unser Ansatz
 Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Aktivitäten und allgemeine Informationen zur Ausbildung an der BWD übermittelt, um die Neugier der Schüler und Schülerinnen zu wecken und zukünftige Lernende zu kreieren.
