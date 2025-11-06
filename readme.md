@@ -40,7 +40,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
     - Gehe zu den SuS bei Fragen und löse wenn nötig die Teilaufgabe mit ihnen
 
 ### Wo findest du alles?
-- **Materialien & Vorlagen:** Hier im Repo ([Linkzurepo]) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten. 
+- **Materialien & Vorlagen:** Hier im Repo [IMS-Walkin](https://github.com/MettaBlender/ims-walkin) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten. 
 - **Werkzeuge & Plattformen:** Wir nutzen Visual Studio Code (IDE) und die CMD für die Localhostverbindung -> der benutzte Browser spielt keine rolle (meist Edge oder Chrome)
 
 ### Hinweise
@@ -55,11 +55,11 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Unterstützung & Rückmeldungen
 Wenn du neue Versionen der Inputs oder Materialien hinzufügen möchtest, sende bitte eine E-Mail an:
 
-**E-Mail:** [aaron.mettler@gmx.ch], [naomi.baechler@protonmail.com]
+**E-Mail:** (Aaron)[aaron.mettler@gmx.ch], (Naomi)[naomi.baechler@protonmail.com]
 
 ### Bei Fragen
-Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adresse wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
+Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adressen wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
 
 ---
 
-Vielen Dank, dass du das Projekt übernimmst! Gemeinsam schaffen wir eine tolle Lernumgebung für die künftien Schüler und Schülerinnen.
+Vielen Dank, dass du das Projekt übernimmst! Gemeinsam schaffen wir eine tolle Lernumgebung für die künftien Schüler und Schülerinnen der BWD IMS.
