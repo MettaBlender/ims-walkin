@@ -14,9 +14,9 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 
 ### Der Ablauf:
 <ol type="A"><li>5 Minuten: Begrüssung und Input zum Workshop</li></ol>
-<ol type="B"><li>25 Minuten: Workshop zu HTML & CSS "Lernen mit Globi an der BWD"</li></ol>
-<ol type="C"><li>5 Minuten: Fragen an die Lernenden (dich) und an den Code</li></ol>
-<ol type="D"><li>10 Minuten: Allgemeine Infos zur Ausbildung und allgemeine Fragerunde mit Michael Peter</li></ol>
+<ol type="A"><li>25 Minuten: Workshop zu HTML & CSS "Lernen mit Globi an der BWD"</li></ol>
+<ol type="A"><li>5 Minuten: Fragen an die Lernenden (dich) und an den Code</li></ol>
+<ol type="A"><li>10 Minuten: Allgemeine Infos zur Ausbildung und allgemeine Fragerunde mit Michael Peter</li></ol>
 
 ---
 
@@ -55,7 +55,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Unterstützung & Rückmeldungen
 Wenn du neue Versionen der Inputs oder Materialien hinzufügen möchtest, sende bitte eine E-Mail an:
 
-**E-Mail:** [Aaron](aaron.mettler@gmx.ch), [Naomi](naomi.baechler@protonmail.com)
+**E-Mail:** [Aaron](mailto:aaron.mettler@gmx.ch), [Naomi](mailto:naomi.baechler@protonmail.com)
 
 ### Bei Fragen
 Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adressen wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
