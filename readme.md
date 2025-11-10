@@ -25,7 +25,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Deine Aufgaben
 - **Vorbereitung:** Materialien und Stationen für den Workshop bereitstellen
     - Code Review -> Ist noch alles aktuell? Hat es noch jedes File?
-    - Ordner "Workshop 1 - Lernen mit Globi" auf allen Stationen clonen
+    - Ordner "Aufgabe" Clonene auf dem Branch Aufgaben
     - HTML-file "Lösungen - Lernen mit Globi" auf dem Präsentationslaptop öffnen & einfrieren
 
 - **Durchführung:** Den Workshop ausführen
