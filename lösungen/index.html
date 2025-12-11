@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML lernen mit Globi an der BWD</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="default.css">
   <link rel="stylesheet" href="style.css">
   <style>
     .style-tag {
@@ -14,25 +14,52 @@
   </style>
 </head>
 <body>
-  <header class="header">
-    <img src="https://bwdbern.ch/wp-content/uploads/2019/05/logo_bwd_neg.png" class="header-logo" alt="BWD Logo"/>
-    <h1 class="header-title">Html lernen mit Globi an der BWD</h1>
+  <header>
+    <img src="https://bwdbern.ch/wp-content/uploads/2019/05/logo_bwd_neg.png"/>
+    <h1>Html lernen mit Globi an der BWD</h1>
   </header>
-  <div class="main-content">
-    <div class="grid-item grid-item-1">
-      <img src="https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp" class="globi-image" alt="Globi Figur"/>
+  <div class="container">
+    <!-- Ein Bild kann mit dem <img> Tag eingebunden werden
+      <img src="URL" alt="Beschreibung"/>
+    -->
+    <div class="box box-1">
+      <img src="https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp" alt="Bild von Globi"/>
     </div>
-    <div class="grid-item grid-item-2">
-       <h1>Globi</h1>
-       <h3>Der Kinderbuchheld</h3>
-       <p>Globi ist eine beliebte Kinderbuchfigur, die in spannenden Abenteuern die Welt entdeckt.</p>
+
+    <!-- Schreibe jeden Text in einen anderen Tag(<>)
+     <h1>Das ist ein grosser Text</h1>
+     <h3>Das ist ein kleiner Text</h3>
+     <p>Das ist ein normaler Text</p>
+    -->
+    <div class="box box-2">
+      <h1>Globi</h1>
+      <h3>Der Kinderbuchheld</h3>
+      <p>Globi ist eine beliebte Kinderbuchfigur, die in spannenden Abenteuern die Welt entdeckt.</p>
     </div>
-    <div class="grid-item grid-item-3">
+
+    <!-- Mit dem style Attribut können Texte direkt gestylt werden
       <p style="font-weight: bold; font-size: 18px;">
         Dieser Text ist mit Inner HTML Designt (Tipp: Bold, size 18px)
       </p>
+    -->
+    <div class="box box-3" style="font-weight: bold; font-size: 18px;">
+      Dieser Text ist mit Inner HTML Designt
     </div>
-    <div class="grid-item grid-item-4">
+
+    <!-- Ein Formular kann mit dem <form> Tag erstellt werden
+      <form>
+        <input type="text" placeholder="Name"/>
+        <input type="email" placeholder="Email"/>
+        <select>
+          <option value="interesse">Interesse an</option>
+          <option value="buch">Buch</option>
+          <option value="spielzeug">Spielzeug</option>
+          <option value="andere">Andere</option>
+        </select>
+        <textarea placeholder="Nachricht an Globi"></textarea>
+        <input type="submit" value="Absenden"/>
+      </form> -->
+    <div class="box box-4">
       <form>
         <input type="text" placeholder="Name"/>
         <input type="email" placeholder="Email"/>
@@ -46,36 +73,73 @@
         <input type="submit" value="Absenden"/>
       </form>
     </div>
-    <div class="grid-item grid-item-5">
-      <p class="style-tag">
-        Dieser Text ist mit Style Tag Designt (Tipp: Bold, size 18px)
-      </p>
+
+    <!-- Mit dem style tag können Texte gestylt werden
+      <style>
+        .style-tag {
+          font-weight: bold;
+          font-size: 18px;
+        }
+      </style>
+    -->
+    <div class="box box-5 style-tag">
+      Dieser Text ist mit Style Tag Designt
     </div>
-    <div class="grid-item grid-item-6">
+
+    <!-- Verschiedene Textauszeichnungen können mit Tags gemacht werden
+      <strong>Fett</strong>
+      <i>Kursiv</i>
+      <u>Unterstrichen</u>
+      <s>Durchgestrichen</s>
+      <b>Fett</b>-->
+    <div class="box box-6">
       <h2>Globi's Abenteuer</h2>
-      <p><strong>Globi</strong> erlebt <i>viele spannende Abenteuer</i>, bei denen er <u>neue Freunde</u> findet und viel <s>fiel</s> über die <b>Welt</b> lernt.</p>
+      <p><strong>Globi</strong> erlebt <i>viele spannende Abenteuer</i>, bei denen er <u>neue Freunde</u> findet und viel <s>fiel</s> über die Welt lernt.</p>
     </div>
-    <div class="grid-item grid-item-7">
-      <p class="style-css">
-        Dieser Text ist mit CSS Style Designt (Tipp: Bold, size 18px)
-      </p>
+
+    <!-- Mit CSS können Texte gestylt werden
+     Schreibe alles in das style.css file
+    <style>
+      .css-style {
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
+    -->
+    <div class="box box-7 css-style">
+      Dieser Text ist mit CSS Style Designt
     </div>
-    <div class="grid-item grid-item-8">
-      <ul class="character-list">
+
+    <!-- Eine Liste kann mit dem <ul> oder <ol> Tag erstellt werden
+      ul = ungeordnete Liste (Punkte)
+      ol = geordnete Liste (Nummern)
+      <ul>
+        <li>Globi</li>
+        <li>Frau Globi</li>
+        <li>Willi</li>
+        <li>Blumli</li>
+      </ul> -->
+    <div class="box box-8">
         Charakter:
-        <li>Neugierig</li>
-        <li>Humorvoll</li>
-        <li>Lernbereit</li>
-      </ul>
-      <ol class="books-list">
+        <ul>
+          <li>Neugierig</li>
+          <li>Humorvoll</li>
+          <li>Lernbereit</li>
+        </ul>
+
         Bestseller Bücher:
-        <li>Globi in der Stadt</li>
-        <li>Globi und die Schweizer Berge</li>
-        <li>Globi und die Tiere der Welt</li>
-      </ol>
+        <ol>
+          <li>Globi in der Stadt</li>
+          <li>Globi und die Schweizer Berge</li>
+          <li>Globi und die Tiere der Welt</li>
+        </ol>
     </div>
-    <div class="grid-item grid-item-9">
-      <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Link zu W3Schools html basics</a> <br/>
+
+    <!-- Ein Link kann mit dem <a> Tag erstellt werden
+      <a href="URL" target="_blank">Link Text</a>
+    -->
+    <div class="box box-9">
+      <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Link zu W3Schools html basics</a>
       <a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank">Link zu W3Schools css basics</a>
     </div>
   </div>
