@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .style-tag {
-
+      font-weight: bold;
+      font-size: 18px;
     }
   </style>
 </head>
@@ -22,8 +23,7 @@
       <img src="URL" alt="Beschreibung"/>
     -->
     <div class="box box-1">
-      Bild von Globi <br>
-      url: https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp
+      <img src="https://orell-fuessli-prod.fra1.cdn.digitaloceanspaces.com/images/transform/globi/Illustrationen/_original/27107/Globi_Lupfer-ueberrascht-717x1024-1-717x1024.webp" alt="Bild von Globi"/>
     </div>
 
     <!-- Schreibe jeden Text in einen anderen Tag(<>)
@@ -32,9 +32,9 @@
      <p>Das ist ein normaler Text</p>
     -->
     <div class="box box-2">
-      Globi
-      Der Kinderbuchheld
-      Globi ist eine beliebte Kinderbuchfigur, die in spannenden Abenteuern die Welt entdeckt.
+      <h1>Globi</h1>
+      <h3>Der Kinderbuchheld</h3>
+      <p>Globi ist eine beliebte Kinderbuchfigur, die in spannenden Abenteuern die Welt entdeckt.</p>
     </div>
 
     <!-- Mit dem style Attribut können Texte direkt gestylt werden
@@ -42,7 +42,9 @@
         Dieser Text ist mit Inner HTML Designt (Tipp: Bold, size 18px)
       </p>
     -->
-    <div class="box box-3" style="">inline style</div>
+    <div class="box box-3" style="font-weight: bold; font-size: 18px;">
+      Dieser Text ist mit Inner HTML Designt
+    </div>
 
     <!-- Ein Formular kann mit dem <form> Tag erstellt werden
       <form>
@@ -57,16 +59,19 @@
         <textarea placeholder="Nachricht an Globi"></textarea>
         <input type="submit" value="Absenden"/>
       </form> -->
-    <div class="box box-4">form
-        Name
-        Email
-        Select:
-          Interesse an
-          Buch
-          Spielzeug
-          Andere
-        Nachricht an Globi
-        Absenden
+    <div class="box box-4">
+      <form>
+        <input type="text" placeholder="Name"/>
+        <input type="email" placeholder="Email"/>
+        <select>
+          <option value="interesse">Interesse an</option>
+          <option value="buch">Buch</option>
+          <option value="spielzeug">Spielzeug</option>
+          <option value="andere">Andere</option>
+        </select>
+        <textarea placeholder="Nachricht an Globi"></textarea>
+        <input type="submit" value="Absenden"/>
+      </form>
     </div>
 
     <!-- Mit dem style tag können Texte gestylt werden
@@ -77,7 +82,9 @@
         }
       </style>
     -->
-    <div class="box box-5 style-tag">style tag</div>
+    <div class="box box-5 style-tag">
+      Dieser Text ist mit Style Tag Designt
+    </div>
 
     <!-- Verschiedene Textauszeichnungen können mit Tags gemacht werden
       <strong>Fett</strong>
@@ -87,7 +94,7 @@
       <b>Fett</b>-->
     <div class="box box-6">
       <h2>Globi's Abenteuer</h2>
-      <p><>Globi erlebt viele spannende Abenteuer, bei denen er neue Freunde findet und viel fiel über die Welt lernt.</p>
+      <p><strong>Globi</strong> erlebt <i>viele spannende Abenteuer</i>, bei denen er <u>neue Freunde</u> findet und viel <s>fiel</s> über die Welt lernt.</p>
     </div>
 
     <!-- Mit CSS können Texte gestylt werden
@@ -99,7 +106,9 @@
       }
     </style>
     -->
-    <div class="box box-7 css-style">css style</div>
+    <div class="box box-7 css-style">
+      Dieser Text ist mit CSS Style Designt
+    </div>
 
     <!-- Eine Liste kann mit dem <ul> oder <ol> Tag erstellt werden
       ul = ungeordnete Liste (Punkte)
@@ -110,25 +119,28 @@
         <li>Willi</li>
         <li>Blumli</li>
       </ul> -->
-    <div class="box box-8">List:
+    <div class="box box-8">
         Charakter:
-        Neugierig
-        Humorvoll
-        Lernbereit
+        <ul>
+          <li>Neugierig</li>
+          <li>Humorvoll</li>
+          <li>Lernbereit</li>
+        </ul>
 
         Bestseller Bücher:
-        Globi in der Stadt
-        Globi und die Schweizer Berge
-        Globi und die Tiere der Welt
+        <ol>
+          <li>Globi in der Stadt</li>
+          <li>Globi und die Schweizer Berge</li>
+          <li>Globi und die Tiere der Welt</li>
+        </ol>
     </div>
 
     <!-- Ein Link kann mit dem <a> Tag erstellt werden
       <a href="URL" target="_blank">Link Text</a>
     -->
     <div class="box box-9">
-      Links
-      https://www.w3schools.com/html/html_basic.asp
-      https://www.w3schools.com/css/css_syntax.asp
+      <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Link zu W3Schools html basics</a>
+      <a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank">Link zu W3Schools css basics</a>
     </div>
   </div>
 </body>
