@@ -7,7 +7,7 @@ Willkommen! Dieses Dokument soll dir den Einstieg erleichtern und dir alle wicht
 ## 1. Allgemeine Übersicht & Zielsetzung
 
 ### Was ist das Walk-In Schnuppern?
-In dem IMS Walk-In Schnuppern geht es darum, den Oberstufenschüler und Schülerinnen Wissen in den Bereichen HTML, CSS und mehr zu vermitteln. Unser Ziel ist es, den Schüler und Schülerinnen Spass an der Informatik zu vermitteln und ihnen einen Einblick in das Praxistraining der IMS gewähren.
+In dem IMS Walk-In Schnuppern geht es darum, den Oberstufenschüler und Schülerinnen Wissen in den Bereichen HTML, CSS und mehr zu vermitteln. Unser Ziel ist es, den Schüler und Schülerinnen Spass an der Informatik zu vermitteln und ihnen einen Einblick in das Praxistraining der IMS zu gewähren.
 
 ### Unser Ansatz
 Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Aktivitäten und allgemeine Informationen zur Ausbildung an der BWD übermittelt, um die Neugier der Schüler und Schülerinnen zu wecken und zukünftige Lernende zu kreieren.
@@ -25,7 +25,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Deine Aufgaben
 - **Vorbereitung:** Materialien und Stationen für den Workshop bereitstellen
     - Code Review -> Ist noch alles aktuell? Hat es noch jedes File?
-    - Ordner "Workshop 1 - Lernen mit Globi" auf allen Stationen clonen
+    - Ordner "Aufgabe" Clonene auf dem Branch 'aufgabe'
     - HTML-file "Lösungen - Lernen mit Globi" auf dem Präsentationslaptop öffnen & einfrieren
 
 - **Durchführung:** Den Workshop ausführen
@@ -40,7 +40,7 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
     - Gehe zu den SuS bei Fragen und löse wenn nötig die Teilaufgabe mit ihnen
 
 ### Wo findest du alles?
-- **Materialien & Vorlagen:** Hier im Repo ([Linkzurepo]) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten.
+- **Materialien & Vorlagen:** Hier im Repo [IMS-Walkin](https://github.com/MettaBlender/ims-walkin) findest du alles was du für den Walk-In Workshop brauchst, wenn nicht melde das doch bitte beim Kontakt von unten.
 - **Werkzeuge & Plattformen:** Wir nutzen Visual Studio Code (IDE) und die CMD für die Localhostverbindung -> der benutzte Browser spielt keine rolle (meist Edge oder Chrome)
 
 ### Hinweise
@@ -55,11 +55,12 @@ Wir setzen auf einen 45 minütigen interaktiven Workshop, welcher lernreiche Akt
 ### Unterstützung & Rückmeldungen
 Wenn du neue Versionen der Inputs oder Materialien hinzufügen möchtest, sende bitte eine E-Mail an:
 
-**E-Mail:** [aaron.mettler@gmx.ch], [naomi.baechler@protonmail.com]
+**Aaron:** [Mail](mailto:aaron.mettler@gmx.ch) <br/>
+**Naomi:** [Mail](mailto:naomi.baechler@protonmail.com)
 
 ### Bei Fragen
-Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adresse wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
+Bei Unklarheiten oder Problemen kannst du dich ebenfalls an diese Adressen wenden. Wir freuen uns auf deine Beiträge und stehen dir bei Bedarf zur Seite!
 
 ---
 
-Vielen Dank, dass du das Projekt übernimmst! Gemeinsam schaffen wir eine tolle Lernumgebung für die künftien Schüler und Schülerinnen.
+Vielen Dank, dass du das Projekt übernimmst! Gemeinsam schaffen wir eine tolle Lernumgebung für die künftien Schüler und Schülerinnen der BWD IMS.
